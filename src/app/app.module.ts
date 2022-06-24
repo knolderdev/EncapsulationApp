@@ -9,6 +9,7 @@ import {
   ShadowDomEncapsulationComponent
 } from "./Components/shadow-dom-encapusaltion/shadow-dom-encapusaltion.component";
 import { AllEncapuslationComponent } from './Components/all-encapuslation/all-encapuslation.component';
+import { HeaderComponent } from './Components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AllEncapuslationComponent } from './Components/all-encapuslation/all-en
     NoEncapsulationComponent,
     EmulatedEncapsulationComponent,
     ShadowDomEncapsulationComponent,
-    AllEncapuslationComponent
+    AllEncapuslationComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
